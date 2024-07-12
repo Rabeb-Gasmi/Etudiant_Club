@@ -1,0 +1,34 @@
+.prem{
+    background-color: bisque;
+}
+.second{
+    background-color: rgb(247, 51, 51);
+}
+.third{
+    background-color: rgb(122, 122, 240);
+}
+.four{
+    background-color: rgb(213, 171, 252);
+}
+.five{
+    background-color: aqua;
+}
+.six{
+    background-color: rgb(238, 146, 81);
+}
+
+h3{
+    color: rgb(240, 88, 240);
+}
+
+.btn{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(245, 75, 194);
+}
+.space{
+    height: 20px;
+}

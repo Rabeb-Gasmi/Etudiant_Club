@@ -1,0 +1,32 @@
+.container{
+    border: 2px solid black;
+    width: 800px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    padding-top: 20px;
+}
+h1{
+    color: rgb(153, 5, 67);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+h4{
+    color:blueviolet;
+}
+span{
+    color: black;
+
+}
+.btn{
+    width: 80px;
+    height: 40px;
+    text-align: center;
+}
+.btn:hover{
+    background-color: rgb(245, 75, 194);
+}
+.space{
+    width: 100px;
+    height: 250px;
+}

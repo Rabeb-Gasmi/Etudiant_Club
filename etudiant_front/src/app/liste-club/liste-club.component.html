@@ -1,0 +1,13 @@
+<div class=" row container" *ngFor="let club of clubs">
+    <h1>Welcome to {{club.name}} Club</h1>
+    <div class=" col-6 name">
+      <h4>Nombre Limite: <span>{{club. nombreLimit}}</span> </h4>
+      <div class="space"></div>
+      <button class="btn btn-danger" (click)="delete(club._id)">Delete</button>
+      <span style="margin-right: 20px;"></span>
+      <button class="btn  btn-warning" [routerLink]="['/updateClub',club._id]" >Edit</button> 
+    </div>
+    <div class=" col-6 image">
+        <img class="w-100" height="300" width="300" [src]="club.image" alt="">
+     </div>
+</div>

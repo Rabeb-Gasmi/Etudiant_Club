@@ -1,0 +1,17 @@
+<div class="container">
+
+    <label for="name">Donner le nom de Club:</label><br>
+    
+    <input type="text" placeholder="Name" [(ngModel)]="club.name" class="form-control"><br><br>
+      <label for="name">Donner le nombre limite de participants:</label><br>
+
+    <input type="text" placeholder="Nombre " [(ngModel)]="club.nombreLimit" class="form-control"><br><br>
+
+    <label for="name">Donner l'image:</label><br>
+
+    <input type="text" placeholder="Img URL" [(ngModel)]="club.image" class="form-control"><br><br>
+
+   
+    <button class="btn btn-info form-control" (click)="update()">Edit</button>
+
+</div>
